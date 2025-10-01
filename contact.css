@@ -1,0 +1,303 @@
+
+@media (min-width:991px)
+{
+    #map
+    {
+       
+        margin-left: 30px;
+        width: 380px;
+        height: 330px;
+    }
+    #conticons
+    {
+        margin-right: 3px;
+        margin-left: 0px;
+    }
+    #contactrgt
+    {
+        height: 590px;
+        
+    }
+    #conthead
+    {
+        margin-left: 32px;
+    }
+    #cont1
+    {
+        
+        margin-right: 45px;
+    }
+    #cont2
+    {
+        
+        margin-right: 36px;
+    }
+    #cont3
+    {
+        
+        margin-right: 27px;
+    }
+    #cont4
+    {
+        
+        margin-left: 37px;
+    }
+    #cont5
+    {
+        
+        margin-left: 37px;
+    }
+    #contactlink
+    {
+        margin-left: 30px;
+    }
+}
+@media (min-width:768px) and (max-width:990px)
+{
+    #map
+    {
+        margin-left: 37px;
+        
+        width: 250px;
+        height: 270px;
+    }
+    
+    #conticons
+    {
+        
+        margin-right: 3px;
+    }
+    #contactrgt
+    {
+        height: 570px;
+    }
+    #conthead
+    {
+        margin-left: 30px;
+    }
+    #cont1
+    {
+        
+        margin-right: 29px;
+    }
+    #cont2
+    {
+        
+        margin-right: 21px;
+    }
+    #cont3
+    {
+        
+        margin-right: 12px;
+    }
+    #cont4
+    {
+        
+        margin-left: 12px;
+        
+    }
+    #cont5
+    {
+        
+        margin-left: 12px;
+    }
+    #contactlink
+    {
+        
+        margin-left: 12px;
+    }
+}
+@media (min-width:536px) and (max-width:767px)
+{
+    #conthead
+    {
+        margin-left: 30px;
+    }
+    #map
+    {
+        margin-left: 37px;
+        
+        width: 410px;
+        height: 320px;
+    }
+    #conticons
+    {
+        margin-right: 3px;
+        
+    }
+    #contactrgt
+    {
+        align-items: center;
+        height: 550px;
+    }
+    #contactcontain
+    {
+        height: 1420px;
+    }
+    
+    #cont1
+    {
+        
+        margin-right: 35px;
+    }
+    #cont2
+    {
+        
+        margin-right: 27px;
+    }
+    #cont3
+    {
+        
+        margin-right: 18px;
+    }
+    #cont4
+    {
+        
+        margin-left: 18px;
+    }
+    #cont5
+    {
+        
+        margin-left: 18px;
+    }
+    #contactlink
+    {
+        margin-left: 18px;
+    }
+}
+@media (max-width:535px)
+{
+    #conthead
+    {
+        margin-left: 30px;
+    }
+    #map
+    {
+        margin-left: 30px;
+        
+        width: 200px;
+        height: 170px;
+    }
+    #conticons
+    {
+        margin-right: 3px;
+       
+    }
+    #contactrgt
+    {
+        height: 450px;
+        align-items: center;
+    }
+}
+/* media end */
+#contacthead 
+{
+    color: #1c00b5;
+    
+}
+#head
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#contactcontain
+{
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+    margin-top: 150px;
+}
+#contact-box
+{
+    background: #fff;
+   
+}
+.contact-left
+{
+    
+    padding: 40px 60px;
+}
+#contactrgt
+{
+   
+    background: #1c00b5;
+    color: #fff;
+    
+}
+#inputemail{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+#inputage{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+#inputnum{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+#inputlname{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+#inputfname{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+#inputuser{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea
+{
+    width: 100%;
+    border: #ccc 1px solid;
+    outline: none;
+    padding: 10px;
+
+}
+#btn
+{
+   
+    border: 1px solid #1c00b5;
+    background-color: #1c00b5;
+    color: white;
+}
+#btn:hover
+{
+    background: white;
+    color: #1c00b5;
+}
+
+#contactlink
+{
+    color: white;
+    text-decoration: none;
+}
+#contactreachus
+{
+    list-style-type: none;
+
+}
+#labels
+{
+    color: #1c00b5;
+}
+

@@ -1,0 +1,606 @@
+/* media start */
+ 
+@media (min-width:510px)
+{
+    #brand1
+    {
+        width: 40%;
+    }
+    #brand2
+    {
+        width: 40%;
+    }
+    #model1
+    {
+        width: 40%;
+    }
+    #model2
+    {
+        width: 40%;
+    }
+    #pr1
+    {
+        width: 40%;
+    }
+    #pr2
+    {
+        width: 40%;
+    }
+    #build1
+    {
+        width: 40%;
+    }
+    #build2
+    {
+        width: 40%;
+    }
+    #build3
+    {
+        width: 40%;
+    }
+    #build4
+    {
+        width: 40%;
+    }
+    #build5
+    {
+        width: 40%;
+    }
+    #build6
+    {
+        width: 40%;
+    }
+    #pro1
+    {
+        width: 40%;
+    }
+    #pro2
+    {
+        width: 40%;
+    }
+    #dis1
+    {
+        width: 40%;
+    }
+    #dis2
+    {
+        width: 40%;
+    }
+    #dis3
+    {
+        width: 40%;
+    }
+    #dis4
+    {
+        width: 40%;
+    }
+    #dis5
+    {
+        width: 40%;
+    }
+    #dis6
+    {
+        width: 40%;
+    }
+    #mem1
+    {
+        width: 40%;
+    }
+    #mem2
+    {
+        width: 40%;
+    }
+    #cam1
+    {
+        width: 40%;
+    }
+    #cam2
+    {
+        width: 40%;
+    }
+    #cam3
+    {
+        width: 40%;
+    }
+    #cam4
+    {
+        width: 40%;
+    }
+    #bat1
+    {
+        width: 40%;
+    }
+    #bat2
+    {
+        width: 40%;
+    }
+    #bat3
+    {
+        width: 40%;
+    }
+    #bat4
+    {
+        width: 40%;
+    }
+    #compimg1
+    {
+       object-fit: contain; 
+        width: 100%;
+        
+    }
+    #compimg2
+    {
+       object-fit: contain;
+        width: 100%;
+    }
+}
+@media (min-width:394px) and (max-width:510px)
+{
+    
+    
+    #brand1
+    {
+        width: 40%;
+    }
+    #brand2
+    {
+        width: 40%;
+    }
+    #model1
+    {
+        width: 40%;
+    }
+    #model2
+    {
+        width: 40%;
+    }
+    #pr1
+    {
+        width: 40%;
+    }
+    #pr2
+    {
+        width: 40%;
+    }
+    #build1
+    {
+        width: 40%;
+    }
+    #build2
+    {
+        width: 40%;
+    }
+    #build3
+    {
+        width: 40%;
+    }
+    #build4
+    {
+        width: 40%;
+    }
+    #build5
+    {
+        width: 40%;
+    }
+    #build6
+    {
+        width: 40%;
+    }
+    #pro1
+    {
+        width: 40%;
+    }
+    #pro2
+    {
+        width: 40%;
+    }
+    #dis1
+    {
+        width: 40%;
+    }
+    #dis2
+    {
+        width: 40%;
+    }
+    #dis3
+    {
+        width: 40%;
+    }
+    #dis4
+    {
+        width: 40%;
+    }
+    #dis5
+    {
+        width: 40%;
+    }
+    #dis6
+    {
+        width: 40%;
+    }
+    #mem1
+    {
+        width: 40%;
+    }
+    #mem2
+    {
+        width: 40%;
+    }
+    #cam1
+    {
+        width: 40%;
+    }
+    #cam2
+    {
+        width: 40%;
+    }
+    #cam3
+    {
+        width: 40%;
+    }
+    #cam4
+    {
+        width: 40%;
+    }
+    #bat1
+    {
+        width: 40%;
+    }
+    #bat2
+    {
+        width: 40%;
+    }
+    #bat3
+    {
+        width: 40%;
+    }
+    #bat4
+    {
+        width: 40%;
+    }
+    #select1
+    {
+        width: 100%;
+    }
+    #select2
+    {
+        width: 100%;
+    }
+    #compimg1
+    {
+       object-fit: contain; 
+        width: 100%;
+        
+    }
+    #compimg2
+    {
+       object-fit: contain;
+        width: 100%;
+    }
+    #compcontain
+    {
+        width: 520px;
+    }
+    #footcontain
+    {
+        width: 520px;
+    }
+}
+@media (min-width:208px) and (max-width:393px)
+{
+ 
+    #brand1
+    {
+        width: 40%;
+    }
+    #brand2
+    {
+        width: 40%;
+    }
+    #model1
+    {
+        width: 40%;
+    }
+    #model2
+    {
+        width: 40%;
+    }
+    #pr1
+    {
+        width: 40%;
+    }
+    #pr2
+    {
+        width: 40%;
+    }
+    #build1
+    {
+        width: 40%;
+    }
+    #build2
+    {
+        width: 40%;
+    }
+    #build3
+    {
+        width: 40%;
+    }
+    #build4
+    {
+        width: 40%;
+    }
+    #build5
+    {
+        width: 40%;
+    }
+    #build6
+    {
+        width: 40%;
+    }
+    #pro1
+    {
+        width: 40%;
+    }
+    #pro2
+    {
+        width: 40%;
+    }
+    #dis1
+    {
+        width: 40%;
+    }
+    #dis2
+    {
+        width: 40%;
+    }
+    #dis3
+    {
+        width: 40%;
+    }
+    #dis4
+    {
+        width: 40%;
+    }
+    #dis5
+    {
+        width: 40%;
+    }
+    #dis6
+    {
+        width: 40%;
+    }
+    #mem1
+    {
+        width: 40%;
+    }
+    #mem2
+    {
+        width: 40%;
+    }
+    #cam1
+    {
+        width: 40%;
+    }
+    #cam2
+    {
+        width: 40%;
+    }
+    #cam3
+    {
+        width: 40%;
+    }
+    #cam4
+    {
+        width: 40%;
+    }
+    #bat1
+    {
+        width: 40%;
+    }
+    #bat2
+    {
+        width: 40%;
+    }
+    #bat3
+    {
+        width: 40%;
+    }
+    #bat4
+    {
+        width: 40%;
+    }
+    #select1
+    {
+        width: 100%;
+    }
+    #select2
+    {
+        width: 100%;
+    }
+    #compimg1
+    {
+       object-fit: contain;
+       width:100%;
+    }
+    #compimg2
+    {
+        object-fit: contain;
+        width:100%;
+    }
+    #compcontain
+    {
+        width: 520px;
+    }
+    #footcontain
+    {
+        width: 520px;
+    }
+}
+
+@media (max-width:207px)
+{
+    #brand1
+    {
+        width: 40%;
+    }
+    #brand2
+    {
+        width: 40%;
+    }
+    #model1
+    {
+        width: 40%;
+    }
+    #model2
+    {
+        width: 40%;
+    }
+    #pr1
+    {
+        width: 40%;
+    }
+    #pr2
+    {
+        width: 40%;
+    }
+    #build1
+    {
+        width: 40%;
+    }
+    #build2
+    {
+        width: 40%;
+    }
+    #build3
+    {
+        width: 40%;
+    }
+    #build4
+    {
+        width: 40%;
+    }
+    #build5
+    {
+        width: 40%;
+    }
+    #build6
+    {
+        width: 40%;
+    }
+    #pro1
+    {
+        width: 40%;
+    }
+    #pro2
+    {
+        width: 40%;
+    }
+    #dis1
+    {
+        width: 40%;
+    }
+    #dis2
+    {
+        width: 40%;
+    }
+    #dis3
+    {
+        width: 40%;
+    }
+    #dis4
+    {
+        width: 40%;
+    }
+    #dis5
+    {
+        width: 40%;
+    }
+    #dis6
+    {
+        width: 40%;
+    }
+    #mem1
+    {
+        width: 40%;
+    }
+    #mem2
+    {
+        width: 40%;
+    }
+    #cam1
+    {
+        width: 40%;
+    }
+    #cam2
+    {
+        width: 40%;
+    }
+    #cam3
+    {
+        width: 40%;
+    }
+    #cam4
+    {
+        width: 40%;
+    }
+    #bat1
+    {
+        width: 40%;
+    }
+    #bat2
+    {
+        width: 40%;
+    }
+    #bat3
+    {
+        width: 40%;
+    }
+    #bat4
+    {
+        width: 40%;
+    }
+    #compcontain
+    {
+        width: 520px;
+    }
+    #compimg1
+    {
+       object-fit: contain; 
+        width: 60%;
+        
+    }
+    #compimg2
+    {
+        
+       object-fit: contain;
+        width:60%;
+    }
+    #footcontain
+    {
+        width: 520px;
+    }
+}
+/* media end */
+#compcontain
+{
+    
+    margin-top: 150px;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+}
+#compimg1
+{
+    
+    height: 300px;
+}
+#compimg2
+{
+    height: 300px;
+}
+#comphead
+{
+    font-weight: bold;
+}
+#compbrand
+{
+    color: #00028a;
+}

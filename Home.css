@@ -1,0 +1,523 @@
+::-webkit-scrollbar
+{
+  background-color: white;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+  border: white solid 2px;
+  border-radius: 10px;
+  background-color: #00028a;
+}
+
+/* media queries */
+@media (min-width:1200px)
+{
+  #img
+  {
+    margin-left: 5px;
+    width: 150px;
+  }
+  #modalflex
+  {
+    
+    display: flex;
+  }
+  #sliderimg1
+{
+  height: 620px;
+}
+#sliderimg2
+{
+  height: 620px;
+}
+#sliderimg3
+{
+  height: 620px;
+}
+#sliderimg4
+{
+  height: 620px;
+}
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+  #img
+  {
+    margin-left: 5px;
+    width: 130px;
+  }
+  #modalflex
+  {
+    
+    display: flex;
+  }
+  #sliderimg1
+{
+  height: 620px;
+}
+#sliderimg2
+{
+  height: 620px;
+}
+#sliderimg3
+{
+  height: 620px;
+}
+#sliderimg4
+{
+  height: 620px;
+}
+  #card
+  {
+    
+    width: 140px;
+  }
+}
+@media (min-width:768px) and (max-width:991px)
+{
+  #modalflex
+  {
+    
+    display: flex;
+  }
+  #sliderimg1
+  {
+    
+    height: 400px;
+    }
+    #sliderimg2
+    {
+      height: 400px;
+      
+      
+      }
+      #sliderimg3
+  {
+    height: 400px;
+    
+    
+    }
+    #sliderimg4
+  {
+    height: 400px;
+    
+    
+    }
+  #card
+  {
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  #img
+  {
+    width: 150px;
+    height: 270px;
+  }
+  
+}
+@media (min-width:576px) and (max-width:767px)
+{
+  #mobimg9
+  {
+    height: 50px;
+  }
+  #modalflex
+  {
+    
+    display: flex;
+  }
+  
+  #sliderimg1
+  {
+    
+    
+    height: 300px;
+    }
+    #sliderimg2
+    {
+      height: 300px;
+      
+      
+      }
+      #sliderimg3
+  {
+    height: 300px;
+    
+    
+    }
+    #sliderimg4
+  {
+    height: 300px;
+    
+    
+    }
+  #card
+  {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  #img
+  {
+    width: 150px;
+    height: 260px;
+  }
+}
+
+
+@media (max-width:575px)
+{
+  #fontsul
+  {
+    text-align: center;
+  }
+
+  #modalflex
+  {
+    
+    display: flex;
+  }
+  #sliderimg1
+  {
+    
+    height: 300px;
+    }
+    #sliderimg2
+    {
+      height: 300px;
+      
+      }
+      #sliderimg3
+  {
+    height: 300px;
+    
+    }
+    #sliderimg4
+  {
+    height: 300px;
+    
+    
+    }    
+    #img{
+        padding-left: 50px;
+        padding-right: 50px;
+       width : 220px;
+       height: 250px;
+    }
+    #card
+    {
+      
+        margin-bottom: 15px;
+        align-items: center;
+        
+    }
+    #contain
+    {
+      align-items: center;
+    }
+}
+@media (max-width:366px)
+{
+  #modalimg
+  {
+    width: 150px;
+    height: 300px;
+  }
+  #modalflex
+  {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #modalcontent
+  {
+    text-align: center;
+    
+  }
+}
+/* mediaqueries end */
+#card:hover
+      {
+        transform: scale(1.03);
+        box-shadow:  0 8px 50px rgba(0,0,0,0.2);
+        
+      }
+      
+      
+      #navlinks:hover
+      {
+        
+       
+        
+        transform: scale(1.1);
+        color: white;
+        
+      }
+      #imglinks
+      {
+        transition: 0.3s;
+      }
+      #imglinks:hover
+      {
+        transform: scale(1.1);
+        color: white;
+       
+      }
+      #heading
+      {
+        text-align: center;
+        font-weight: bolder;
+        color: #00028a;
+        text-shadow: 0 6px rgba(0,0,0,0.2);
+        font-family: 'Lobster', cursive;
+      }
+      #cardlink
+      {
+        text-decoration: none;
+        
+      }
+      #price
+      {
+        
+        color: gray;
+      }
+      #brand
+      {
+        
+        color: #00028a;
+      }
+      #card
+      {
+        transition: 0.5s;
+       padding-top: 8px;
+        height: 480px;
+      }
+
+#contain
+{
+  box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+}
+#modalcompbtn
+{
+  background-color: #00028a;
+  color: white;
+  border: 1px solid #00028a;
+  
+}
+#modalcompbtn:hover
+{
+  background-color: white;
+  color: #00028a;
+  transform: scale(1.05);
+}
+#modalheader
+{
+  background-color: #00028a;
+}
+#modalclosebtn:hover
+{
+ background-color: white;
+ color: grey; 
+  transform: scale(1.05);
+}
+#modalcontent
+{
+  margin-left: 20px;
+}
+#starimg
+{
+  margin-bottom: 4px;
+  height: 17px;
+}
+#navlinks
+{
+  
+  transition: 0.3s;
+  font-size: medium;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: 'Permanent Marker', cursive;
+}
+#canvashead
+{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0 5px rgba(0,0,0,0.2);
+}
+#off
+{
+  background-color: #00028a;
+  width: 220px;
+}
+
+#canvaslink:hover
+{
+ 
+ 
+ color: white;
+}
+
+#canvaslink
+{
+ 
+  font-weight: bold;
+  color: gray;
+  
+}
+#canvaslinks
+{
+
+  list-style-type: none;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+#revimg
+{
+ height: 80px;
+ width: 80px;
+}
+#revname
+{
+  font-size: large;
+  margin-top: 6px;
+  color: black;
+  font-family: 'Permanent Marker', cursive;
+}
+#revbrand
+{
+  color: #00028a;
+}
+#revpara
+{
+  color: black;
+}
+#revcard
+{
+ padding-top: 50px;
+ align-items: center;
+}
+
+#revcardbody
+{
+ text-align: center;
+}
+#containrev
+{
+ box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+ padding-bottom: 25px;
+ margin-top: 150px;
+ padding-top: 25px;
+}
+#footerhead
+{
+  margin-left: 30px;
+  color: white;
+}
+#footerlink
+{
+  margin-top: 30px;
+  
+  list-style-type: none;
+}
+#footerlinks
+{
+  
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+  color: gray;
+  text-decoration: none;
+}
+#footerlinks:hover
+      {
+        transform: scale(1.1);
+        color: white;
+        
+      }
+#footicons
+{
+    color: gray;
+}
+#footcont1
+{
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+  margin-left: 3px;
+  margin-right: 32px;
+  color: gray;
+}
+#footcont2
+{
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+  margin-left: 3px;
+  margin-right: 28px;
+  color: gray;
+}
+#footcont3
+{
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+  margin-left: 3px;
+  margin-right: 8px;
+  color: gray;
+}
+#colon
+{
+  margin-right: 18px;
+  color: gray;
+}
+#footcont6:hover
+{
+  color: white;
+}
+#footcont6
+{
+
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+
+    color: gray;
+}
+#footcont4
+{
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+  color: gray;
+}
+#footcont5
+{
+ 
+  font-size: large;
+  font-family: 'Permanent Marker', cursive;
+  color: gray;
+}
+#copylink
+{
+  text-decoration: none;
+}
+#fonts
+{
+  color: grey;
+}
+#fonts:hover
+{
+  color: white;
+}
+#offdiv ul #canvaslinks #canvaslink
+{
+  text-decoration: double;
+}
+#more
+{
+   
+    border: 1px solid #1c00b5;
+    background-color: #1c00b5;
+    color: white;
+}
+#more:hover
+{
+    background: white;
+    color: #1c00b5;
+}

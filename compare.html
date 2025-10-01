@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare-ASKME_Mobileb</title>
+    <!-- font awesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="compare.css">
+    <link rel="stylesheet" href="Home.css">
+    <!-- fonts link -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        </style>
+    <!-- bootstrap links -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style=" background-color: #00028a;">
+    <div class="container">
+        <a id="imglinks" class="navbar-brand" href="index.html"><img height="70px" src="logo1.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item " >
+              <a id="navlinks" class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="navlinks" class="nav-link" href="reviews.html">Reviews</a>
+            </li>
+            
+            <li class="nav-item">
+              <a id="navlinks" data-bs-toggle="offcanvas" data-bs-target="#off" class="nav-link " href="#">
+                Mobile Phones
+              </a>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" id="off">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="canvashead">Mobile Phones</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Apple.html">APPLE</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Oppo.html">OPPO</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Samsung.html">SAMSUNG</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Vivo.html">VIVO</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Tecno.html">TECNO</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Infinix.html">INFINIX</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Xiaomi.html">XIAOMI</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Nokia.html">NOKIA</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Realme.html">REALME</a></li>
+                  </ul>
+                </div>
+            
+            <li class="nav-item">
+              <a id="navlinks" class="nav-link" href="feedback.html">Feedback</a>
+            </li>
+            <li class="nav-item">
+                <a id="navlinks" class="nav-link" href="contact2.html">Contact Us</a>
+              </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+    <!-- compare start -->
+    <div class="container card p-4 mb-5" id="compcontain">
+
+    
+    <h1 class=" text-center my-5" id="heading">Compare Mobile Phones</h1>
+    <table class="table">
+        <tr id="row1" class="bg-light">
+        <td></td>
+        <th >
+            <select class="form-control" id="select1" onchange="item1(this.value)">
+                <option value="0"></option>
+            </select>
+        </th>
+        <th>
+            <select class="form-control" id="select2" onchange="item2(this.value)">
+                <option value="0"></option>
+            </select>
+        </th>
+    </tr>
+    <tr>
+        
+        <td></td>
+        <div id="imgdiv">
+        <td><img id="compimg1" src="no2.jpg"></td>
+        </div>
+        <div id="imgdiv">
+        <td><img  id="compimg2" src="no2.jpg"></td>
+        </div>
+    </tr>
+    <tr>
+        <th id="compbrand">Mobile</th>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td id="comphead">Brand</td>
+        <td id="brand1">N/A</td>
+        <td id="brand2">N/A</td>
+    </tr>
+    <tr>
+       
+        <td id="comphead">Model</td>
+        <td id="model1">N/A</td>
+        <td id="model2">N/A</td>
+    </tr>
+    <tr>
+        <td id="comphead">Price</td>
+        <td id="pr1">N/A</td>
+        <td id="pr2">N/A</td>
+    </tr>
+    <tr>
+        <th id="compbrand">Build</th>
+        
+    </tr>
+    <tr>
+        <td id="comphead">OS</td>
+        <td id="build1">N/A</td>
+        <td id="build2">N/A</td>
+    </tr>
+    <tr>
+        <td id="comphead">Dimensions</td>
+        <td id="build3">N/A</td>
+        <td id="build4">N/A</td>
+    </tr>
+    <tr>
+        <td id="comphead">Colors</td>
+        <td id="build5">N/A</td>
+        <td id="build6">N/A</td>
+    </tr>
+    <tr>
+        <th id="compbrand">Processor</th>
+        
+    </tr>
+    <tr>
+        <td id="comphead">CPU</td>
+        <td id="pro1">N/A</td>
+        <td id="pro2">N/A</td>
+    </tr>
+    
+    <tr>
+        <th id="compbrand">Display</th>
+        
+    </tr>
+   
+    <tr>
+        <td id="comphead">Size</td>
+        <td id="dis1">N/A</td>
+        <td id="dis2">N/A</td>
+    </tr>
+    <tr>
+        <td id="comphead">Resolution</td>
+        <td id="dis3">N/A</td>
+        <td id="dis4">N/A</td>
+    </tr>
+    <tr>
+        <td id="comphead">Protection</td>
+        <td id="dis5">N/A</td>
+        <td id="dis6">N/A</td>
+    </tr>
+    <tr>
+        <th id="compbrand">Memory</th>
+        
+    </tr>
+    <tr>
+        <td id="comphead">Built-in</td>
+        <td id="mem1">N/A</td>
+        <td id="mem2">N/A</td>
+    </tr>
+    <tr>
+        <th id="compbrand">Camera</th>
+        
+    </tr>
+    <tr>
+        <td id="comphead">Main</td>
+        <td id="cam1">N/A</td>
+        <td id="cam2">N/A</td>
+    </tr>
+    <tr>
+        <td id="comphead">Front</td>
+        <td id="cam3">N/A</td>
+        <td id="cam4">N/A</td>
+    </tr>
+    <tr>
+        <th id="compbrand">Battery</th>
+        
+    </tr>
+   
+    
+    
+    <tr>
+        <td id="comphead"></td>
+        <td id="bat1">N/A</td>
+        <td id="bat2">N/A</td>
+    </tr>
+    </table>
+</div>
+<!-- Footer -->
+<footer id="footcontain" class="pt-5" style=" background-color: #00028a;">
+    <div  class="container">
+      <div class="row">
+        
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 mb-5">
+          <h3 id="footerhead">Site Map</h3>
+            <ul id="footerlink">
+              <li><a id="footerlinks" href="index.html"><i class="fa-solid fa-home me-1"></i> Home</a></li>
+              <li><a id="footerlinks" href="reviews.html"><i class="fa-solid fa-scroll me-2"></i>Reviews</a></li>
+              <li><a id="footerlinks" href="compare.html"><i class="fa-solid fa-mobile me-2"></i>Compare</a></li>
+              <li><a id="footerlinks" href="feedback.html"><i class="fa-solid fa-message me-2"></i>Feedback</a></li>
+              <li><a id="footerlinks" href="contact2.html"><i class="fa-solid fa-phone me-2"></i>Contact</a></li>
+              
+            </ul>
+        </div>
+        
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7 mb-5">
+          <h3 id="footerhead">Contact</h3>
+          <ul id="footerlink">
+            <li><i id="footicons" class="fa-solid fa-envelope"></i><span id="footcont1">Email    </span><span id="colon">:</span><a target="_blank" href="https://www.google.com/intl/en-GB/gmail/about/" id="footcont6">webmaster@cellinfo.com.</a></li>
+            <li><i id="footicons" class="fa-solid fa-phone"></i><span  id="footcont2">Phone    </span><span id="colon">:</span><span id="footcont4" >+001-28272300</span></li>
+            <li><i id="footicons" class="fa-solid fa-home"></i><span  id="footcont3">Address  </span><span id="colon">:</span><span id="footcont5" >A-65, ACME Co., Street no 12, New York</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-7 col-lg-8">
+          <p class="text-light">Copyright © 2022 All Rights Reserved By:
+          <a id="copylink" target="_blank" href="https://www.whatmobile.com.pk/">
+            <strong class="text-light">
+              What Mobile Pakistan
+            </strong>
+          </a></p>
+        </div>
+        <div class="col-sm-12 col-md-5 col-lg-4">
+          
+          <ul id="fontsul" class="list-unstyled list-inline text-sm-center">
+            <li class="list-inline-item">
+              <a target="_blank" id="fonts" href="https://www.facebook.com/"><i style="font-size: 23px;" class="fab fa-facebook fa-fade"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" id="fonts" href="https://twitter.com/"><i style="font-size: 23px;" class="fab fa-twitter  fa-fade"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" id="fonts" href="https://www.google.com/"><i style="font-size: 23px;" class="fab fa-google fa-fade"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" id="fonts" href="https://www.youtube.com/"><i style="font-size: 23px;" class="fab fa-youtube fa-fade"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" id="fonts" href="https://in.linkedin.com/company/linkedin"><i style="font-size: 23px;" class="fab fa-linkedin fa-fade"></i></a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+      
+      
+    </div>
+  </footer>
+    <script src="products.js"></script>
+    <script>
+        for(var i=1;i<products.length;i++)
+        {
+            document.getElementById("select1").innerHTML += `
+            <option value="${i}">${products[i].Brand}__${products[i].Model}</option>
+            `
+            document.getElementById("select2").innerHTML += `
+            <option value="${i}">${products[i].Brand}__${products[i].Model}</option>
+            `
+        }
+        function item1(a)
+        {
+          var s2 = document.getElementById("select2").value;
+          
+          if(a != s2)
+          {
+          document.getElementById("compimg1").src = products[a].Image ;
+          document.getElementById("brand1").innerHTML = products[a].Brand ;
+          document.getElementById("model1").innerHTML = products[a].Model ;
+          document.getElementById("pr1").innerHTML = products[a].Price ;
+          document.getElementById("build1").innerHTML = products[a].OS ;
+          document.getElementById("build3").innerHTML = products[a].Dimension ;
+          document.getElementById("build5").innerHTML = products[a].Color ;
+          document.getElementById("pro1").innerHTML = products[a].CPU ;
+          document.getElementById("dis1").innerHTML = products[a].Size ;
+          document.getElementById("dis3").innerHTML = products[a].Resolution ;
+          document.getElementById("dis5").innerHTML = products[a].Protection ;
+          document.getElementById("mem1").innerHTML = products[a].Built ;
+          document.getElementById("cam1").innerHTML = products[a].Main ;
+          document.getElementById("cam3").innerHTML = products[a].Front ;
+          document.getElementById("bat1").innerHTML = products[a].Blank ;
+
+          }
+          else
+          {
+            document.getElementById("compimg1").src = products[0].Image ;
+          document.getElementById("brand1").innerHTML = "N/A" ;
+          document.getElementById("model1").innerHTML = "N/A" ;
+          document.getElementById("pr1").innerHTML = "N/A" ;
+          document.getElementById("build1").innerHTML = "N/A" ;
+          document.getElementById("build3").innerHTML = "N/A" ;
+          document.getElementById("build5").innerHTML = "N/A" ;
+          document.getElementById("pro1").innerHTML = "N/A" ;
+          document.getElementById("dis1").innerHTML ="N/A" ;
+          document.getElementById("dis3").innerHTML = "N/A" ;
+          document.getElementById("dis5").innerHTML = "N/A" ;
+          document.getElementById("mem1").innerHTML = "N/A" ;
+          document.getElementById("cam1").innerHTML = "N/A" ;
+          document.getElementById("cam3").innerHTML ="N/A" ;
+          document.getElementById("bat1").innerHTML = "N/A" ;
+          
+          }
+     
+        }
+        function item2(a)
+        {
+            var s1 = document.getElementById("select1").value;
+        if(a != s1)
+        {
+          document.getElementById("compimg2").src = products[a].Image ;
+          document.getElementById("brand2").innerHTML = products[a].Brand ;
+          document.getElementById("model2").innerHTML = products[a].Model ;
+          document.getElementById("pr2").innerHTML = products[a].Price ;
+          document.getElementById("build2").innerHTML = products[a].OS ;
+          document.getElementById("build4").innerHTML = products[a].Dimension ;
+          document.getElementById("build6").innerHTML = products[a].Color ;
+          document.getElementById("pro2").innerHTML = products[a].CPU ;
+          document.getElementById("dis2").innerHTML = products[a].Size ;
+          document.getElementById("dis4").innerHTML = products[a].Resolution ;
+          document.getElementById("dis6").innerHTML = products[a].Protection ;
+          document.getElementById("mem2").innerHTML = products[a].Built ;
+          document.getElementById("cam2").innerHTML = products[a].Main ;
+          document.getElementById("cam4").innerHTML = products[a].Front ;
+          document.getElementById("bat2").innerHTML = products[a].Blank ;
+
+          }
+          else
+          {
+            document.getElementById("compimg2").src = products[0].Image ;
+          document.getElementById("brand2").innerHTML = "N/A" ;
+          document.getElementById("model2").innerHTML = "N/A" ;
+          document.getElementById("pr2").innerHTML = "N/A" ;
+          document.getElementById("build2").innerHTML = "N/A" ;
+          document.getElementById("build4").innerHTML = "N/A" ;
+          document.getElementById("build6").innerHTML = "N/A" ;
+          document.getElementById("pro2").innerHTML = "N/A" ;
+          document.getElementById("dis2").innerHTML ="N/A" ;
+          document.getElementById("dis4").innerHTML = "N/A" ;
+          document.getElementById("dis6").innerHTML = "N/A" ;
+          document.getElementById("mem2").innerHTML = "N/A" ;
+          document.getElementById("cam2").innerHTML = "N/A" ;
+          document.getElementById("cam4").innerHTML ="N/A" ;
+          document.getElementById("bat2").innerHTML = "N/A" ;
+          }
+       
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="phones.css">
+    <link rel="stylesheet" href="reviews.css">
+    <link rel="stylesheet" href="Home.css">
+ <script src="reviews.js"></script>
+ <!-- Bootstraplinks -->
+ <link rel="stylesheet" href="bootstrap.min.css">
+ <script src="bootstrap.bundle.min.js"></script>
+<!-- Fonts link -->
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+ </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style=" background-color: #00028a;">
+      <div class="container">
+        <a id="imglinks" class="navbar-brand" href="index.html"><img height="70px" src="logo1.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item " >
+              <a id="navlinks" class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="navlinks" class="nav-link active" href="reviews.html">Reviews</a>
+            </li>
+            
+            <li class="nav-item">
+              <a id="navlinks" data-bs-toggle="offcanvas" data-bs-target="#off" class="nav-link " href="#">
+                Mobile Phones
+              </a>
+              <div class="offcanvas offcanvas-start" data-bs-scroll="true" id="off">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="canvashead">Mobile Phones</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Apple.html">APPLE</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Oppo.html">OPPO</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Samsung.html">SAMSUNG</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Vivo.html">VIVO</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Tecno.html">TECNO</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Infinix.html">INFINIX</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Xiaomi.html">XIAOMI</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Nokia.html">NOKIA</a></li>
+                    <li id="canvaslinks" class="mb-4"><a id="canvaslink" href="Realme.html">REALME</a></li>
+                  </ul>
+                </div>
+                <li class="nav-item">
+                  <a id="navlinks" class="nav-link" href="feedback.html">Feedback</a>
+                </li>
+            <li class="nav-item">
+              <a id="navlinks" class="nav-link" href="contact2.html">Contact Us</a>
+            </li>
+           
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+      <!-- cards -->
+      <div id="containrev" class="container mb-5 card">
+        <h1 id="heading" class="mt-5 mb-5">Reviews</h1>
+        <!-- 6th -->
+        <div id="mobimgdiv3">
+          <img src="samsung.png" id="mobimg3">
+         </div>
+<div class="row mb-5">
+    <!-- Slider -->
+    <div id="slide6" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+       <button type="button" data-bs-target="#slide6" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+       <button type="button"  data-bs-target="#slide6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+       
+     </div>
+  <div class="carousel-inner">
+  <div class="carousel-item active" >
+    <div class="card-wrapper d-flex" id="review11">
+  
+    </div>
+  </div>
+  <div class="carousel-item">
+   <div class="card-wrapper d-flex"  id="review12">
+     
+   </div>
+  </div>
+  </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#slide6" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#slide6" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+  </div>
+  <!-- 7th -->
+  <div id="mobimgdiv7">
+    <img src="xiaomi1.png" id="mobimg7">
+   </div>
+  <div class="row mb-5">
+    <!-- Slider -->
+    <div id="slide7" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+       <button type="button" data-bs-target="#slide7" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+       <button type="button"  data-bs-target="#slide7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+       
+     </div>
+  <div class="carousel-inner">
+  <div class="carousel-item active" >
+    <div class="card-wrapper d-flex" id="review13">
+  
+    </div>
+  </div>
+  <div class="carousel-item">
+   <div class="card-wrapper d-flex"  id="review14">
+     
+   </div>
+  </div>
+  </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#slide7" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#slide7" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+  </div>
+  <!-- 8th -->
+  <div id="mobimgdiv8">
+    <img src="nokia.png" id="mobimg8">
+   </div>
+  <div class="row mb-5">
+    <!-- Slider -->
+    <div id="slide8" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+       <button type="button" data-bs-target="#slide8" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+       <button type="button"  data-bs-target="#slide8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+       
+     </div>
+  <div class="carousel-inner">
+  <div class="carousel-item active" >
+    <div class="card-wrapper d-flex" id="review15">
+  
+    </div>
+  </div>
+  <div class="carousel-item">
+   <div class="card-wrapper d-flex"  id="review16">
+     
+   </div>
+  </div>
+  </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#slide8" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#slide8" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+  </div>
+  <!-- 9th -->
+  <div id="mobimgdiv5">
+    <img src="tecno.png" id="mobimg5">
+   </div>
+  <div class="row mb-5">
+    <!-- Slider -->
+    <div id="slide9" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-indicators">
+       <button type="button" data-bs-target="#slide9" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1"></button>
+       <button type="button"  data-bs-target="#slide9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+       
+     </div>
+  <div class="carousel-inner">
+  <div class="carousel-item active" >
+    <div class="card-wrapper d-flex" id="review17">
+  
+    </div>
+  </div>
+  <div class="carousel-item">
+   <div class="card-wrapper d-flex"  id="review18">
+     
+   </div>
+  </div>
+  </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#slide9" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#slide9" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+  </div>
+  <!-- cards end -->
+<!-- pagination -->
+<div id="pagination">
+  <nav>
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" tabindex="-1" aria-disabled="true"  href="reviews.html">Previous</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="reviews.html">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="reviews1.html">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="reviews1.html">Next</a>
+      </li>
+    </ul>
+  </nav>
+  </div>
+  </div>
+<!-- Footer -->
+<footer class="pt-5" style=" background-color: #00028a;">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-12 col-sm-12 col-md-5 col-lg-5 mb-5">
+        <h3 id="footerhead">Site Map</h3>
+          <ul id="footerlink">
+            <li><a id="footerlinks" href="index.html"><i class="fa-solid fa-home me-1"></i> Home</a></li>
+            <li><a id="footerlinks" href="reviews.html"><i class="fa-solid fa-scroll me-2"></i>Reviews</a></li>
+            <li><a id="footerlinks" href="compare.html"><i class="fa-solid fa-mobile me-2"></i>Compare</a></li>
+            <li><a id="footerlinks" href="feedback.html"><i class="fa-solid fa-message me-2"></i>Feedback</a></li>
+            <li><a id="footerlinks" href="contact2.html"><i class="fa-solid fa-phone me-2"></i>Contact</a></li>
+            
+          </ul>
+      </div>
+      
+      <div class="col-12 col-sm-12 col-md-7 col-lg-7 mb-5">
+        <h3 id="footerhead">Contact</h3>
+        <ul id="footerlink">
+          <li><i id="footicons" class="fa-solid fa-envelope"></i><span id="footcont1">Email    </span><span id="colon">:</span><a target="_blank" href="https://www.google.com/intl/en-GB/gmail/about/" id="footcont6">webmaster@cellinfo.com.</a></li>
+          <li><i id="footicons" class="fa-solid fa-phone"></i><span  id="footcont2">Phone    </span><span id="colon">:</span><span id="footcont4" >+001-28272300</span></li>
+          <li><i id="footicons" class="fa-solid fa-home"></i><span  id="footcont3">Address  </span><span id="colon">:</span><span id="footcont5" >A-65, ACME Co., Street no 12, New York</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-7 col-lg-8">
+        <p class="text-light">Copyright © 2022 All Rights Reserved By:
+        <a id="copylink" target="_blank" href="https://www.whatmobile.com.pk/">
+          <strong class="text-light">
+            What Mobile Pakistan
+          </strong>
+        </a></p>
+      </div>
+      <div class="col-sm-12 col-md-5 col-lg-4">
+        
+        <ul id="fontsul" class="list-unstyled list-inline text-sm-center">
+          <li class="list-inline-item">
+            <a target="_blank" id="fonts" href="https://www.facebook.com/"><i style="font-size: 23px;" class="fab fa-facebook fa-fade"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" id="fonts" href="https://twitter.com/"><i style="font-size: 23px;" class="fab fa-twitter  fa-fade"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" id="fonts" href="https://www.google.com/"><i style="font-size: 23px;" class="fab fa-google fa-fade"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" id="fonts" href="https://www.youtube.com/"><i style="font-size: 23px;" class="fab fa-youtube fa-fade"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" id="fonts" href="https://in.linkedin.com/company/linkedin"><i style="font-size: 23px;" class="fab fa-linkedin fa-fade"></i></a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+    
+    
+  </div>
+</footer>
+  <script>
+    // <!-- Loop 6-->
+    for(i=0;i<card1.length;i++)
+ {
+   document.getElementById("review11").innerHTML+=`
+   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+ 
+  <div class="card mx-3" id="revcard">
+     <img id="revimg" src="${card11[i].Img}" class="card-img-top" >
+     <p id="revname" class="card-text">${card11[i].Name}</p>
+   <div class="card-body" id="revcardbody">
+       <h5 id="revbrand" class="card-title">${card11[i].Title}</h5>
+       <p id="revpara" class="card-text">${card11[i].Para}</p>
+       
+   </div>
+  </div>
+</div>`
+ }
+ for(i=0;i<card1.length;i++)
+ {
+   document.getElementById("review12").innerHTML+=`
+   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+ 
+  <div class="card mx-3" id="revcard">
+     <img id="revimg" src="${card12[i].Img}" class="card-img-top" >
+     <p id="revname" class="card-text">${card12[i].Name}</p>
+   <div class="card-body" id="revcardbody">
+       <h5 id="revbrand" class="card-title">${card12[i].Title}</h5>
+       <p id="revpara" class="card-text">${card12[i].Para}</p>
+       
+   </div>
+  </div>
+</div>`
+ }
+// <!-- Loop 7-->
+for(i=0;i<card1.length;i++)
+ {
+   document.getElementById("review13").innerHTML+=`
+   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+ 
+  <div class="card mx-3" id="revcard">
+     <img id="revimg" src="${card13[i].Img}" class="card-img-top" >
+     <p id="revname" class="card-text">${card13[i].Name}</p>
+   <div class="card-body" id="revcardbody">
+       <h5 id="revbrand" class="card-title">${card13[i].Title}</h5>
+       <p id="revpara" class="card-text">${card13[i].Para}</p>
+       
+   </div>
+  </div>
+</div>`
+ }
+ for(i=0;i<card1.length;i++)
+ {
+   document.getElementById("review14").innerHTML+=`
+   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+ 
+  <div class="card mx-3" id="revcard">
+     <img id="revimg" src="${card14[i].Img}" class="card-img-top" >
+     <p id="revname" class="card-text">${card14[i].Name}</p>
+   <div class="card-body" id="revcardbody">
+       <h5 id="revbrand" class="card-title">${card14[i].Title}</h5>
+       <p id="revpara" class="card-text">${card14[i].Para}</p>
+       
+   </div>
+  </div>
+</div>`
+ }
+// <!-- Loop 8-->
+for(i=0;i<card1.length;i++)
+ {
+   document.getElementById("review15").innerHTML+=`
+   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+ 
+  <div class="card mx-3" id="revcard">
+     <img id="revimg" src="${card15[i].Img}" class="card-img-top" >
+     <p id="revname" class="card-text">${card15[i].Name}</p>
+   <div class="card-body" id="revcardbody">
+       <h5 id="revbrand" class="card-title">${card15[i].Title}</h5>
+       <p id="revpara" class="card-text">${card15[i].Para}</p>
+       
+   </div>
+  </div>
+</div>`
+ }
+ for(i=0;i<card1.length;i++)
+ {
+   document.getElementById("review16").innerHTML+=`
+   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+ 
+  <div class="card mx-3" id="revcard">
+     <img id="revimg" src="${card16[i].Img}" class="card-img-top" >
+     <p id="revname" class="card-text">${card16[i].Name}</p>
+   <div class="card-body" id="revcardbody">
+       <h5 id="revbrand" class="card-title">${card16[i].Title}</h5>
+       <p id="revpara" class="card-text">${card16[i].Para}</p>
+       
+   </div>
+  </div>
+</div>`
+ }
+// <!-- Loop 9-->
+for(i=0;i<card1.length;i++)
+ {
+   document.getElementById("review17").innerHTML+=`
+   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+ 
+  <div class="card mx-3" id="revcard">
+     <img id="revimg" src="${card17[i].Img}" class="card-img-top" >
+     <p id="revname" class="card-text">${card17[i].Name}</p>
+   <div class="card-body" id="revcardbody">
+       <h5 id="revbrand" class="card-title">${card17[i].Title}</h5>
+       <p id="revpara" class="card-text">${card17[i].Para}</p>
+       
+   </div>
+  </div>
+</div>`
+ }
+ for(i=0;i<card1.length;i++)
+ {
+   document.getElementById("review18").innerHTML+=`
+   <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+ 
+  <div class="card mx-3" id="revcard">
+     <img id="revimg" src="${card18[i].Img}" class="card-img-top" >
+     <p id="revname" class="card-text">${card18[i].Name}</p>
+   <div class="card-body" id="revcardbody">
+       <h5 id="revbrand" class="card-title">${card18[i].Title}</h5>
+       <p id="revpara" class="card-text">${card18[i].Para}</p>
+       
+   </div>
+  </div>
+</div>`
+ }
+  </script>
+</body>
+</html>

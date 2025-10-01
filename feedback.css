@@ -1,0 +1,14 @@
+@media (max-width:767px)
+{
+    #feedcontain
+    {
+        
+        height: 1000px;
+    }
+}
+/* media end */
+#feedcontain
+{
+    margin-top: 150px;
+    box-shadow: 0 8px 50px rgba(0,0,0,0.2);
+}
